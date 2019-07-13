@@ -1,0 +1,10 @@
+{
+    "/api": {
+        "target": "https://us-central1-ps-notify-api.cloudfunctions.net/api",
+        "secure": false,
+        "pathRewrite": {
+            "^/api": ""
+        },
+        "changeOrigin": "true"
+    }
+}
