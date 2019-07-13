@@ -9,7 +9,6 @@ import { Network } from '@ngx-pwa/offline';
 // project imports
 import { EventResponse } from '../interfaces';
 import { EventsService } from '../events.service';
-import { timeout } from 'q';
 
 @Component({
   selector: 'app-home',
